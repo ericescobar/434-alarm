@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## 434Mhz Wireless Alarm System
+Using this template it's possible to record 434Mhz signals, write them to a Sqlite DB, and then perform any scripted action (including SMS)
 
-You can use the [editor on GitHub](https://github.com/ericescobar/434-alarm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Hardware
+[HackRF One](http://amzn.to/2h9bLpV)<br>
+[YARD Stick One](http://amzn.to/2uFjaSu)<br>
+[Raspberry Pi 3 Kit](http://amzn.to/2tPSm33)<br>
+[RXB6 433Mhz](http://amzn.to/2eTKrv7)<br><br>
+[434Mhz Motion Sensor](http://amzn.to/2eUbqGy)<br>
+[434Mhz Door Sensor](http://amzn.to/2tPWa4a)<br>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+### Install
+```
+apt install sqlite3 python-pip
+pip install twilio Flask
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ericescobar/434-alarm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Questions?
+Email me: 434 AT eescobar DT com
